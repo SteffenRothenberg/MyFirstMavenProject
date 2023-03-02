@@ -1,7 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-
-
+        //TEST
         System.out.println(addition(100 ,20));
         System.out.println(isBiggerThanHundred(101));
     }
