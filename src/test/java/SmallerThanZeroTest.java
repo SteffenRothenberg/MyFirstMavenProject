@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 
 class SmallerThanZeroTest {
 
@@ -13,7 +13,7 @@ class SmallerThanZeroTest {
         boolean result = SmallerThanZero.smallerThanZero(i);
 
         //THEN
-        assertEquals(true, result);
+        assertFalse(result);
     }
 
 }
